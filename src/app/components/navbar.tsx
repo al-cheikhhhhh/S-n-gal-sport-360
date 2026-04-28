@@ -32,7 +32,7 @@ export function Navbar() {
               <span className="absolute bottom-[-4px] left-0 w-full h-[3px] bg-[#39FF14] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
                 style={{ boxShadow: '0 0 8px #39FF14' }}></span>
             </a>
-            <a href="#" className="nav-link text-white hover:text-[#39FF14] transition-colors relative group"
+            <a href="/top-infos" className="nav-link text-white hover:text-[#39FF14] transition-colors relative group"
               style={{ fontFamily: 'var(--font-body)', fontSize: '15px', fontWeight: 500 }}>
               Top Infos
               <span className="absolute bottom-[-4px] left-0 w-full h-[3px] bg-[#39FF14] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
@@ -111,7 +111,7 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}>
               TOP INFOS
             </a>
-            <a href="#" className="text-white text-xl py-3 border-b border-white/10"
+            <a href="/top-infos" className="text-white text-xl py-3 border-b border-white/10"
               style={{ fontFamily: 'var(--font-heading)' }}
               onClick={() => setMobileMenuOpen(false)}>
               ÉVÉNEMENTS
